@@ -1,0 +1,19 @@
+.container {
+    background-color: darkcyan;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    height: 350px;
+    width: 1400px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 12px;
+    column-gap: 15px;
+}
+
+.item {
+    border: 1px solid white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
